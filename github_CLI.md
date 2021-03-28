@@ -26,7 +26,7 @@ To create, clone, fork or view your repositories, use the following command:
 `gh repo`
 
 
-### Clone
+#### Clone
 To clone locally your GitHub repository:
 
 `gh repo clone <repository> [<directory>]`
@@ -34,7 +34,7 @@ To clone locally your GitHub repository:
 To clone your repository you have to use the `OWNER/REPO` syntax. But if you don’t pass the owner argument in your command, it defaults to the name of the authenticated user.
 
 
-### Create
+#### Create
 It is very simple to create your own repository:
 
 `gh repo create [<name>] [flags]`
@@ -50,7 +50,7 @@ To manage your pull request, you need to use:
 This command and the following inherit from parents commands. You can always specify your repository by using the flag `--repo` or `-R`.
 
 
-### Create
+#### Create
 Create a pull request on GitHub with this command.
 
 `gh pr create [flags]`
@@ -68,7 +68,7 @@ Create a pull request on GitHub with this command.
 * `--assignee`: Assign people by their login
 
 
-### Close
+#### Close
 To close a pull request, you need to know its URL, the branch name or the number of the pull request:
 
 `gh pr close {<number> | <url> | <branch>} [flags]`
@@ -76,7 +76,7 @@ To close a pull request, you need to know its URL, the branch name or the number
 If you want to delete the source branch when closing it, both locally and remotely, you can add the flag `-d` or `--delete-branch`.
 
 
-### List
+#### List
 To list and filter pull requests in your repository, use the following command.
 
 `gh pr list [flags]`
@@ -92,13 +92,13 @@ You can filter your search by using the following tags:
 * `--assignee` or `-a`: Filter by assignee
 
 
-### Diff
+#### Diff
 To see the changes in your pull request, use the following command:
 
 `gh pr diff [<number> | <url> | <branch>] [flags]`
 
 
-### Merge
+#### Merge
 Finally, here is the command to merge a pull request:
 
 `gh pr merge {<number> | <url> | <branch>} [flags]`
