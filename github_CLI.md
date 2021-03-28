@@ -9,7 +9,7 @@ Before working with GitHub CLI, you have to authenticate yourself. Run the follo
 
 `gh auth login [flags]`
 
-The default authentication mode is a web-based browser flow. You can use `-h` or `--hostname` to specify the hostname of your repository (when you have an Enterprise account for exemple) and --with-token to read a token from standard input.
+The default authentication mode is a web-based browser flow. You can use `-h` or `--hostname` to specify the hostname of your repository (when you have an Enterprise account for exemple) and `--with-token` to read a token from standard input.
 
 
 ### Logout
